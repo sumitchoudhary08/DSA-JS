@@ -1,3 +1,5 @@
+//WAP to get the index of the search element
+
 const arr = [10, 2, 5, 3, 8, 9];
 
 const searchElement = (arr, element) => {
