@@ -2,7 +2,8 @@ const mergeSortedArrayBestSoln = (arr1, m, arr2, n) => {
   p1 = m - 1;
   p2 = n - 1;
   for (let i = 0; i < m + n; i++) {
-    if (p2 < 0 || (p1 >= 0 && arr1[p1] > arr2[p2])) {
+    if (p2 < 0) break;
+    if (p1 >= 0 && arr1[p1] > arr2[p2]) {
       arr1[m + n - i - 1] = arr1[p1];
       p1 = p1 - 1;
     } else {
