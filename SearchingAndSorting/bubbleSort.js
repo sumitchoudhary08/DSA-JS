@@ -20,3 +20,6 @@ const bubbleSort = (arr) => {
 const arr = [1, 2, 5, 3, 9, 4, 7];
 
 console.log(bubbleSort(arr));
+
+//T.C = O(n2)
+//S.C = O(1) - constant
